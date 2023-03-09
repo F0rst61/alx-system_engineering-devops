@@ -1,0 +1,2 @@
+#!/bin/bash
+mpv -quiet -really-quiet --no-audio --no-video --term-playing-msg='Playing Star Wars IV in ASCII art...' <(ffmpeg -i "https://ia802705.us.archive.org/11/items/StarWarsIVANewHope1977/Star%20Wars%20IV%20-%20A%20New%20Hope%20(1977).mp4" -f wav - | caca-convert -f ansi)
