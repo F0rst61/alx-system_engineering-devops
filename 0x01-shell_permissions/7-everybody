@@ -1,2 +1,6 @@
 #!/bin/bash
-chmod 777 hello
+cd ~
+cd ./working_directory
+chmod u+x hello
+chmod g+x hello
+chmod o+x hello
