@@ -1,6 +1,2 @@
 #!/bin/bash
-cd ~
-cd ./working_directory
-chmod u+x hello
-chmod g+x hello
-chmod o+x hello
+chmod 640 hello && chmod 444 hello
